@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Python-Game</title>
+    
 </head>
 <body>
 
