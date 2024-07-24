@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    
+    <title>Python-Game</title>
 </head>
 <body>
 
@@ -11,16 +11,29 @@
 
 <h2>Table of Contents</h2>
 <ul>
+    <li><a href="#install-pygame">Install Pygame</a></li>
     <li><a href="#game-code">Game Code</a></li>
     <li><a href="#assets">Assets</a></li>
     <li><a href="#repository-link">Repository Link</a></li>
     <li><a href="#contact">Contact</a></li>
 </ul>
 
+<h2 id="install-pygame">Install Pygame</h2>
+<p>To run this game on your local machine, you need to have Python and Pygame installed. Follow the steps below to install Pygame:</p>
+<ol>
+    <li>Ensure you have Python installed. You can download it from <a href="https://www.python.org/downloads/" target="_blank">python.org</a>.</li>
+    <li>Open your command prompt (Windows) or terminal (Mac/Linux).</li>
+    <li>Install Pygame by running the following command:</li>
+</ol>
+<pre><code>pip install pygame</code></pre>
+<ol>
+    <li>Once Pygame is installed, you can run the game by navigating to the directory containing the game code and executing:</li>
+</ol>
+<pre><code>python your_game_file.py</code></pre>
+
 <h2 id="game-code">Game Code</h2>
 <p>The main game logic is implemented in the Python file. Below is the code:</p>
-<pre>
-<code>
+<pre><code>
 import pygame
 import random
 
@@ -197,8 +210,7 @@ showGameover()
 pygame.display.update()
 pygame.time.delay(500)  # Pause for 2 seconds
 pygame.quit()
-</code>
-</pre>
+</code></pre>
 
 <h2 id="assets">Assets</h2>
 <p>The game uses the following assets:</p>
